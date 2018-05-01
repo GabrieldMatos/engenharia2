@@ -3,6 +3,7 @@ public class A {
     private int A1;
     private float A2;
     private String A3;
+    private String Aramo4; 
 
     public float soma(){
         return A1 + A2;
@@ -21,6 +22,10 @@ public class A {
         return A3;
     }
 
+    public String getAramo4(){
+        return Aramo4;
+    }
+
     public void setA1(int A1){
         this.A1 = A1;
     }
@@ -29,7 +34,10 @@ public class A {
         this.A2 = A2;
     }
 
-    public void setA3(float A3){
+    public void setA3(String A3){
         this.A3 = A3;
-    }  
+    }
+    public void setA3(String Aramo4){
+        this.Aramo4 = Aramo4;
+    }   
 }
