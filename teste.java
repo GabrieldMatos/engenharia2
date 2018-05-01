@@ -4,6 +4,11 @@ public class A {
     private float A2;
     private String A3;
 
+    public float soma(){
+        return A1 + A2;
+
+    }
+
     public int getA1(){
         return A1;
     }
